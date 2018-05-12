@@ -8,4 +8,4 @@ Route::get('packageview', function(){
 	return view('mypackage::pview');
 });
 
-Route::get('packagecontroller', 'Apurvashethia\Mypackage\MypackageController@display');  
+Route::get('packagecontroller', 'Apurva\Mypackage\MypackageController@display');  

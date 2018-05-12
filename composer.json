@@ -1,6 +1,13 @@
 {
     "name": "apurva/mypackage",
     "description": "aaaa",
-    "require": {}
+    "require": {},
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Apurva\\Mypackage\\MypackageServiceProvider"
+                    ]
+                }
+            }
 }
   

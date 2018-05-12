@@ -1,7 +1,18 @@
 {
     "name": "apurva/mypackage",
-    "description": "aaaa",
-    "require": {},
+    "description": "A simple Package for self testing with use and acess of controller & view",
+    "require": {
+                "php": ">=7.0.0"
+            },
+    "license": [
+                "MIT"
+            ],
+    "authors": [
+                {
+                    "name": "Apurva Shethia",
+                    "email": "apurvashethia@yahoo.com"
+                }
+            ],
     "extra": {
                 "laravel": {
                     "providers": [
@@ -9,10 +20,9 @@
                     ]
                 }
             },
-            "autoload": {
+    "autoload": {
                 "psr-4": {
                     "Apurva\\Mypackage\\": "src/"
                 }
             }
 }
-  

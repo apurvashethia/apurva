@@ -1,7 +1,7 @@
 <?php
 
 Route::get('mypackage', function(){
-	echo 'Hello from the calculator package!';
+	echo 'Hello from the package!';
 });
 
 Route::get('packageview', function(){

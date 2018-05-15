@@ -1,6 +1,6 @@
 {
     "name": "apurva/mypackage",
-    "description": "A simple Package for self testing with use and acess of controller & view",
+    "description": "A simple Package for self testing with use and access of controller & view",
     "require": {
                 "php": ">=7.0.0"
             },
